@@ -1,6 +1,6 @@
 # Docker Workshop
 
-This workshop demonstrates how to use docker to run containerized environments
+This workshop demonstrates how to use docker to run containerized virtual environments.
 
 ## Excercise
 

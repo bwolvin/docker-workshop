@@ -1,0 +1,13 @@
+{
+  "name": "docker_workshop",
+  "version": "1.0.0",
+  "description": "Learn Docker Workshop",
+  "author": "Brandon Wolvin",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.1"
+  }
+}

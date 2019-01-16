@@ -12,7 +12,9 @@ RUN npm install
 
 # Go through after initial tutorial
 ARG AUTHOR_NAME=Brandon
-ENV NAME=$AUTHOR_NAME
+ENV NAME=${AUTHOR_NAME}
+
+RUN echo $NAME
 
 # Bundle app source
 COPY . .

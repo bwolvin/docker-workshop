@@ -14,8 +14,6 @@ RUN npm install
 ARG AUTHOR_NAME=Brandon
 ENV NAME=${AUTHOR_NAME}
 
-RUN echo $NAME
-
 # Bundle app source
 COPY . .
 
